@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Additional styles can be added here */
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
